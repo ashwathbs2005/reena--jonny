@@ -1,0 +1,5 @@
+print("This is a jenkins build file")
+print("############################")
+print("Building Jenkins Pipeline is ok")
+print("############################")
+print("Thank You")
