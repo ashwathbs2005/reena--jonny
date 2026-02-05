@@ -3,12 +3,7 @@ pipeline{
     stages{
         stage('version'){
             steps{
-                bat '"c:\\Windows\\System32\\cmd.exe" /c python --version'
-            }
-        }
-        stage('hello'){
-            steps{
-                bat '"c:\\Windows\\System32\\cmd.exe" /c python python.py'
+                bat '"C:\Users\USER\AppData\Local\Microsoft\WindowsApps\python.exe" /c python --version'
             }
         }
     }
