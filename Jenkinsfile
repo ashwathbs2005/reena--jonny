@@ -7,11 +7,5 @@ pipeline {
                 bat 'python --version'
             }
         }
-
-        stage('hello') {
-            steps {
-                bat 'python hello.py'
-            }
-        }
     }
 }
